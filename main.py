@@ -1,9 +1,3 @@
-from pyspark.sql import SparkSession
+#This is main file
 
-spark = SparkSession.builder.appName("Demo").getOrCreate()
-
-df = spark.range(5)
-df.show()
-
-spark.stop()
-
+#adding a new feature - feature1
